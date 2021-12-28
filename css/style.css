@@ -1,0 +1,50 @@
+body {
+  font-family: 'Mali', cursive;
+    font-size: 15px;
+  }
+
+.heading-container {  
+  text-align: center;
+  margin-top: 20px;
+  background-color: bisque;
+}
+  
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 1em;
+  padding: 0.5em;
+  background-color: bisque;
+}
+
+.container {
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  padding: 1em;
+  gap: 1em;
+  background-color:beige;
+} 
+
+.img-responsive{
+  width: 250px;
+  height: 300px;
+}
+
+.name{
+  padding-top:10px;
+  text-align: left;
+}
+.main_img{
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+
+
+
