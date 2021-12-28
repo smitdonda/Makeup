@@ -8,7 +8,7 @@ document.body.innerHTML=`
 
 let makeupdata = async () => {
     try{
-        const url = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json")    
+        const url = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline")    
         const getdata = await url.json();
 
         makeup.innerHTML="";
